@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Slide deck primitives for React",
   "private": true,
+  "homepage": "https://alexkrolick.github.io/react-unslide",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
@@ -50,7 +51,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -101,6 +104,7 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "prettier": "^1.7.4"
   }
 }
