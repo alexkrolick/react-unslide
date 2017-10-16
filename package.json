@@ -1,6 +1,7 @@
 {
   "name": "react-unslide",
   "version": "0.1.0",
+  "description": "Slide deck primitives for React",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
