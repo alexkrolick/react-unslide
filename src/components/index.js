@@ -1,0 +1,5 @@
+export * from './Heading'
+export * from './Slide'
+export * from './Text'
+export * from './End'
+export * from './Title'
