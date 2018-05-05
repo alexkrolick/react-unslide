@@ -23,3 +23,4 @@ The project hasn't been fully "library-ized" but you can still use it to build a
 
 - This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 - The components are styled using CSS-in-JS w/[Emotion](http://emotion.sh)
+- Slides powered by https://github.com/alexkrolick/react-framestack
